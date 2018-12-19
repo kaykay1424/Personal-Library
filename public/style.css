@@ -1,0 +1,64 @@
+.border {
+  border-style: inset;
+  border-width: 1px;
+  margin: 10px;
+}
+.selected-book {
+  background-color: beige;
+}
+#sampleui {
+  max-width: 450px;
+  margin-left: 5%;
+  height: 100%;
+}
+#display {
+ max-height: 300px;
+  overflow: auto;
+}
+table {
+  border-collapse: collapse;
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+thead {
+  background-color: black;
+  color: white;
+}
+td,th {
+  border: 2px solid black;
+  padding: 10px;
+  height: 20px;
+  max-height: 20px;
+  overflow: auto;
+}
+tr {
+  cursor: pointer;
+}
+#sampleposting {
+  max-width: 450px;
+  text-align: center;
+  margin-left: 5%;
+}
+
+#userstories {
+  margin-left: 5%;
+}
+
+form {
+  padding: 5px;
+}
+button {
+  background-color: navy;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+ 
+}
+.deleteBook {
+  background-color: red;
+}
+#deleteAllBooks {
+  background-color: maroon;
+}
